@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  min-height: 900px;
+  /* border: 2px solid yellow; */
+}
+.greenery {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  min-width: 30%;
+  /* border: 2px solid red; */
+  background-image: url(greenery.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-size: contain; */
+  flex: 1 1 auto;
+}
+
+.logo img {
+  width: 100px;
+  height: 130px;
+}
+
+.logo {
+  /* border: 1px solid blue; */
+  display: flex;
+  /* width: 100%; */
+  color: white;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40%;
+}
+
+.image-credit {
+  margin-top: 130%;
+  color: white;
+  text-align: center;
+}
+
+.image-credit a {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.heading,
+.sign-up-form,
+.account {
+  /* height: 30.33%; */
+  flex: 1 1;
+  /* border: 2px solid blue; */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.sign-up-form {
+  background-color: white;
+}
+.heading {
+  font-size: 40;
+  font-weight: 600;
+  /* margin: 0; */
+  /* width: 80%; */
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.heading p {
+  margin: 0;
+  margin-top: 80px;
+}
+.second-column {
+  min-width: 50%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form label {
+  display: block;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sign-up-form input {
+  width: 200px;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #e5e7eb;
+  margin: 10px;
+}
+.sign-up-form h2 {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+form {
+  /* border: 1px solid brown; */
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.account button {
+  background-color: #596d48;
+  padding: 10px;
+  width: 250px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 20;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+.account h3 {
+  margin: 30px;
+  margin-top: 20px;
+}
+.account h3 a {
+  color: #596d48;
+}
