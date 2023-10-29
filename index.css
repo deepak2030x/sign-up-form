@@ -3,15 +3,18 @@
 *::before {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   display: flex;
   min-height: 900px;
   /* border: 2px solid yellow; */
 }
+
 .greenery {
   display: flex;
   flex-direction: column;
@@ -63,9 +66,11 @@ body {
   /* border: 2px solid blue; */
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 .sign-up-form {
   background-color: white;
 }
+
 .heading {
   font-size: 40;
   font-weight: 600;
@@ -75,10 +80,12 @@ body {
   padding-left: 50px;
   padding-top: 50px;
 }
+
 .heading p {
   margin: 0;
   margin-top: 80px;
 }
+
 .second-column {
   min-width: 50%;
   flex: 1 1 auto;
@@ -92,6 +99,7 @@ body {
   margin-left: 10px;
   margin-top: 10px;
 }
+
 .sign-up-form input {
   width: 200px;
   display: block;
@@ -99,10 +107,12 @@ body {
   border: 2px solid #e5e7eb;
   margin: 10px;
 }
+
 .sign-up-form h2 {
   margin-left: 60px;
   margin-top: 10px;
 }
+
 form {
   /* border: 1px solid brown; */
   width: 60%;
@@ -123,10 +133,12 @@ form {
   margin: 30px;
   margin-bottom: 10px;
 }
+
 .account h3 {
   margin: 30px;
   margin-top: 20px;
 }
+
 .account h3 a {
   color: #596d48;
 }
